@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#table-name {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+table th, table td {
+    border: 2px solid #CBD7E8;
+    padding: 10px;
+}

@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000D40;
+}
+
+.shelf-info {
+    text-align: center;
+}
+
+#master-header {
+    font-size: 30px;
+}
+
+.alerts button {
+    background-color: #129AFE;
+    color: white;
+    border: none;
+    margin: 0 10px;
+    padding: 1em 2em;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.alerts button:hover {
+    color: #000D40;
+}
+
+.alerts button:active {
+   background-color: transparent;
+}
+
+main {
+    display: flex;
+}
+
+.left-part,
+.rifht-part  {
+    width: 50%;
+}
+
+.left-part {
+    padding-left: 100px;
+    margin-top: 123px;
+}
+
+.shelf-element {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 20px;
+    gap: 20px;
+}
+
+.change-book-info {
+    padding-top: 19px;
+    padding-right: 50px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.change-book-info button {
+    border: 1px solid var(--website-button-blue, #CBD7E8);
+    background-color: transparent;
+    color: #000D40;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.change-book-info button:hover {
+    border: none;
+}
+
+.change-book-info button:active {
+    background-color: #129AFE;
+    color: white;
+}
+
+.remove-book {
+    background-color: #129AFE !important;
+    color: white !important;
+    border: none !important;
+}
+
+.remove-book:hover {
+    color: #000D40 !important;
+}
+
+.remove-book:active {
+    background-color: transparent !important;
+}
+
+.right-part-header {
+    margin-top: 50px;
+}
+
+#right-part-header {
+    font-size: 20px;
+}
+
+.enter-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enter-info input {
+    width: 200%;
+    border: 1px solid var(--website-input-gainsboro, #D9D9D9);
+    background: var(--website-frame-white, #FFF);
+    background-color: transparent;
+    border-radius: 1000px;
+    padding: 1em 2em;
+}
+
+#input-num-of-pages{
+    width: 100%;
+}
+
+.enter-info input::placeholder {
+    color: #BCBCBC;
+}
+
+input:focus {
+    outline: none;
+}
+
+.add-book {
+    margin-top: 20px;
+}
+
+.add-book button {
+    background-color: #129AFE;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.add-book button:hover {
+    color: #000D40;
+}
+
+.add-book button:active {
+   background-color: transparent;
+}
